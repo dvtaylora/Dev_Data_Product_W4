@@ -89,4 +89,6 @@ Shiny application screenshot
 
 <div class="footer" style="margin-top:-0px;font-size:80%;">
 Screenshot of Shiny app Mall Customer Clustering Analysis.<br>
+Left panel:&nbsp; user inputs x-axis and y-axis variable and desired number of clusters<br>
+Main panel:&nbsp; display users selected data, colors by cluster and places asteriks at center and also returns a clustering score based on the user inputs
 
