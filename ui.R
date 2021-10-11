@@ -15,8 +15,8 @@ ui <- fluidPage(
     sidebarLayout(
         
         sidebarPanel(
-            selectInput('xcol', 'X-axis variable', data_choice),
-            selectInput('ycol', 'Y-axis variable', data_choice, selected = data_choice[[2]]),
+            selectInput('xcol', 'Select an X-axis variable', data_choice),
+            selectInput('ycol', 'Select an Y-axis variable', data_choice, selected = data_choice[[2]]),
             sliderInput("k_clusters", "Select number of clusters", 1, 10, 
                         value = 3)
         ),
